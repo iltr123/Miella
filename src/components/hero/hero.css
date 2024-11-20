@@ -1,0 +1,125 @@
+/* Hero Section Styles */
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80vh;
+    background: linear-gradient(135deg, #fff0f3, #ffe4e6);
+    padding: 0 10%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    z-index: 10;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .accent-text {
+    color: #e11d48;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .primary-btn,
+  .secondary-btn {
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .primary-btn {
+    background-color: #e11d48;
+    color: white;
+    border: 2px solid #e11d48;
+  }
+  
+  .secondary-btn {
+    background-color: transparent;
+    color: #e11d48;
+    border: 2px solid #e11d48;
+  }
+  
+  .primary-btn:hover {
+    background-color: #be123c;
+  }
+  
+  .secondary-btn:hover {
+    background-color: rgba(225, 29, 72, 0.1);
+  }
+  
+  .hero-image {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 400px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .hero-container {
+      flex-direction: column;
+      text-align: center;
+      padding: 0 5%;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    .hero-buttons {
+      justify-content: center;
+    }
+  
+    .hero-image {
+      position: relative;
+      right: auto;
+      top: auto;
+      transform: none;
+      max-width: 300px;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Icon Placeholders (you would replace with actual icon fonts or SVGs) */
+  .icon-shopping-bag::before {
+    content: '🛍️';
+    margin-left: 5px;
+  }
+  
+  .icon-arrow-right::before {
+    content: '→';
+    margin-left: 5px;
+  }
