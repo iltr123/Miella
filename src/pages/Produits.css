@@ -1,0 +1,13 @@
+/* Ajout de marges et styles pour l'input */
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Style pour le message "Aucun produit trouvé" */
+  .text-muted {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  

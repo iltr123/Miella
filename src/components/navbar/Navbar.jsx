@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
 
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -12,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/" className="navbar-logo">Logo</Link>
+        <Link to="/" className="navbar-logo"><span className='cls'>MIE</span>LLA</Link>
         
         <div className="menu-icon" onClick={toggleMenu}>
           {isMenuOpen ? '✕' : '☰'}
@@ -23,7 +24,7 @@ const Navbar = () => {
             <Link to="/" className="nav-link">Home</Link>
           </li>
           <li className="nav-item">
-            <Link to="/about" className="nav-link">About</Link>
+            <Link to="/produits" className="nav-link">About</Link>
           </li>
           <li className="nav-item">
             <Link to="/services" className="nav-link">Services</Link>
