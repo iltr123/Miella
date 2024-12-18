@@ -21,7 +21,7 @@ const ProduitDetails = () => {
           <h1>{produit.nom}</h1>
           <p><strong>Description :</strong> Ce sac est parfait pour compléter votre style avec élégance.</p>
           <p><strong>Prix :</strong> {produit.prix} €</p>
-          <p><strong>Couleurs disponibles :</strong> Noir, Rouge, Beige</p>
+          <p><strong>Couleurs disponibles :</strong>{produit.couleur? produit.couleur  : ' Noir, Rouge, Beige'}</p>
           <a 
             href="https://www.instagram.com/yourinstagramaccount" 
             target="_blank" 

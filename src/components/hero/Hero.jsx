@@ -1,10 +1,10 @@
 import React from 'react';
 import './hero.css';
-import logo from '/Users/lmfer/GIT/Miella/src/assets/logo/logo.jpg'; // Exemple : logo de la marque
-import sac1 from '/Users/lmfer/GIT/Miella/src/assets/img/sac1.jpg'; // Importation des images des produits
-import sac2 from '/Users/lmfer/GIT/Miella/src/assets/img/sac2.jpg';
-import sac3 from '/Users/lmfer/GIT/Miella/src/assets/img/sac3.jpg';
-import sac4 from '/Users/lmfer/GIT/Miella/src/assets/img/sac4.jpg';
+import logo from '../../assets/logo/logo.jpg'; // Exemple : logo de la marque
+import sac1 from '../../assets/img/sac1.jpg'; // Importation des images des produits
+import sac2 from '../../assets/img/sac2.jpg';
+import sac3 from '../../assets/img/sac3.jpg';
+import sac4 from '../../assets/img/sac4.jpg';
 
 const HeroSection = () => {
   return (

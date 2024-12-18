@@ -35,7 +35,10 @@ const Produits = () => {
               <img src={produit.image} className="card-img-top" alt={produit.nom} />
               <div className="card-body">
                 <h5 className="card-title">{produit.nom}</h5>
-                <p className="card-text">Prix : {produit.prix} €</p>
+                <p className="card-text">Prix : {produit.prix} DH</p>
+                {produit.couleur && (
+                  <p className="card-text">Couleur : {produit.couleur}</p>
+                )}
                 <Link to={`/produitdetails/${produit.id}`} className="btn btn-primary">
                   Voir le produit
                 </Link>
@@ -43,6 +46,18 @@ const Produits = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Instagram Button */}
+      <div className="text-center mt-4 mb-4">
+        <a 
+          href="https://www.instagram.com/miella.bags/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="btn btn-primary"
+        >
+          Plus Produits
+        </a>
       </div>
     </div>
   );
