@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# MIELLA - Luxury Handbag E-commerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![MIELLA Logo](src/assets/logo/logo.jpg)
 
-## Available Scripts
+## 🛍️ About MIELLA
 
-In the project directory, you can run:
+MIELLA is a modern e-commerce platform specializing in luxury handbags. Built with React, this web application provides a seamless shopping experience with direct integration to Instagram and WhatsApp for easy ordering.
 
-### `npm start`
+## 🌟 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Responsive product catalog
+- Advanced product filtering and search
+- Detailed product views with color variants
+- Direct WhatsApp ordering system
+- Instagram integration for extended catalog
+- Similar products recommendations
+- Mobile-first design approach
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Live Demo
 
-### `npm test`
+Visit our website: [MIELLA Official](https://miella-bags.com)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛒 Shopping
 
-### `npm run build`
+- Instagram: [@miella.bags](https://www.instagram.com/miella.bags)
+- WhatsApp: [+212 722-028133](https://wa.me/212722028133)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.js
+- React Router
+- CSS3
+- Bootstrap 5
+- JavaScript ES6+
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 👥 Development Team
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Ismail Soudassi - Lead Developer
+- [Developer Name 1] - Project Manager 
+- [Developer Name 2] - UI/UX Designer
+- [Developer Name 3] - Backend Developer
+- [Developer Name 4] - QA Engineer
+- [Developer Name 5] - Frontend Developer
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📞 Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+For business inquiries:
+- Email: contact@miella.com
+- Phone: +212 722-028133
+- Location: Local manal numero 158 1ere etage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📄 License
 
-## Learn More
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+We welcome contributions! Please feel free to submit a Pull Request.
 
-### Code Splitting
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🙏 Acknowledgments
 
-### Analyzing the Bundle Size
+- Special thanks to our amazing customers
+- All contributors who helped make this project possible
+- The React community for excellent documentation and support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ by the MIELLA Team
