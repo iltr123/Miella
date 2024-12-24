@@ -35,7 +35,7 @@ Visit our website: [MIELLA Official](https://miella-bags.com)
 
 
 ## 👥 Development Team
-
+- Abdessamad Dadda - 
 - Ismail Soudassi - Lead Developer
 - [Developer Name 1] - Project Manager 
 - [Developer Name 2] - UI/UX Designer
