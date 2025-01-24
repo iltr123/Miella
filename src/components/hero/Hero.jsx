@@ -1,11 +1,11 @@
-import React from 'react';
-import './hero.css';
-import logo from '../../assets/logo/logo.jpg'; // Exemple : logo de la marque
-import sac1 from '../../assets/img/sac1.jpg'; // Importation des images des produits
-import sac2 from '../../assets/img/sac2.jpg';
-import sac3 from '../../assets/img/sac3.jpg';
-import sac4 from '../../assets/img/sac4.jpg';
-
+import React from "react";
+import "./hero.css";
+import logo from "../../assets/logo/logo.jpg"; // Exemple : logo de la marque
+import sac1 from "../../assets/img/sac1.jpg"; // Importation des images des produits
+import sac2 from "../../assets/img/sac2.jpg";
+import sac3 from "../../assets/img/sac3.jpg";
+import sac4 from "../../assets/img/sac4.jpg";
+import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
     <div>
@@ -18,19 +18,18 @@ const HeroSection = () => {
             <span className="accent-text">Luxury Handbags</span>
           </h1>
           <p className="hero-subtitle">
-            Discover our latest collection of designer handbags.
-            Crafted with precision, designed for elegance.
+            Discover our latest collection of designer handbags. Crafted with
+            precision, designed for elegance.
           </p>
           <div className="hero-buttons">
-          <a href="/contact" className="secondary-btn">
-Shop now
-  <i className="icon-arrow-right"></i>
-</a>
+            <a href="/contact" className="secondary-btn">
+              Shop now
+              <i className="icon-arrow-right"></i>
+            </a>
             <a href="/produits" className="secondary-btn">
-  View Collection
-  <i className="icon-arrow-right"></i>
-</a>
-
+              View Collection
+              <i className="icon-arrow-right"></i>
+            </a>
           </div>
         </div>
         <div className="hero-image">
@@ -42,17 +41,25 @@ Shop now
       <div className="bestsellers-section container my-5">
         <h2 className="text-center mb-4">Les Produits les plus vendus</h2>
         <div className="row">
-          {[{ img: sac1, title: 'Sac Élégant', price: '150 €' },
-            { img: sac2, title: 'Sac Moderne', price: '200 €' },
-            { img: sac3, title: 'Sac Chic', price: '180 €' },
-            { img: sac4, title: 'Sac Luxe', price: '220 €' }].map((product, idx) => (
+          {[
+            { id: 1, img: sac1, title: "Sac Élégant", price: "150 €" },
+            { id: 2,img: sac2, title: "Sac Moderne", price: "200 €" },
+            { id: 3,img: sac3, title: "Sac Chic", price: "180 €" },
+            { id: 4,img: sac4, title: "Sac Luxe", price: "220 €" },
+          ].map((product, idx) => (
             <div className="col-md-3 mb-4" key={idx}>
               <div className="card">
-                <img src={product.img} className="card-img-top" alt={product.title} />
+                <img
+                  src={product.img}
+                  className="card-img-top"
+                  alt={product.title}
+                />
                 <div className="card-body">
                   <h5 className="card-title">{product.title}</h5>
                   <p className="card-text">Prix : {product.price}</p>
-                  <button className="btn btn-primary custom-btn">Voir le produit</button>
+                  <Link to={`/produitdetails/${product.id}`} className="btn btn-primary">
+                  Voir le produit
+                </Link>
                 </div>
               </div>
             </div>
@@ -81,10 +88,34 @@ Shop now
             <div className="col-md-6">
               <h4 className="footer-title">Contact</h4>
               <ul className="list-unstyled">
-                <li><strong>Téléphone :</strong> <a href="tel:+212600000000">+212 6 00 00 00 00</a></li>
-                <li><strong>WhatsApp :</strong> <a href="https://wa.me/212600000000" target="_blank" rel="noopener noreferrer">Contactez-nous</a></li>
-                <li><strong>Instagram :</strong> <a href="https://instagram.com/miella_official" target="_blank" rel="noopener noreferrer">@miella_official</a></li>
-                <li><strong>Email :</strong> <a href="mailto:contact@miella.com">contact@miella.com</a></li>
+                <li>
+                  <strong>Téléphone :</strong>{" "}
+                  <a href="tel:+212600000000">+212 6 00 00 00 00</a>
+                </li>
+                <li>
+                  <strong>WhatsApp :</strong>{" "}
+                  <a
+                    href="https://wa.me/212600000000"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Contactez-nous
+                  </a>
+                </li>
+                <li>
+                  <strong>Instagram :</strong>{" "}
+                  <a
+                    href="https://instagram.com/miella_official"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    @miella_official
+                  </a>
+                </li>
+                <li>
+                  <strong>Email :</strong>{" "}
+                  <a href="mailto:contact@miella.com">contact@miella.com</a>
+                </li>
               </ul>
             </div>
           </div>

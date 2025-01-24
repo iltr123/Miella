@@ -46,6 +46,7 @@ const Produits = () => {
             </div>
           </div>
         ))}
+        
       </div>
 
       {/* Instagram Button */}
