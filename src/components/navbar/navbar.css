@@ -37,13 +37,13 @@
   }
   
   .nav-link {
-    color: black;
+    color: rgb(201, 7, 7);
     text-decoration: none;
     transition: color 0.3s ease;
   }
   
   .nav-link:hover {
-    color: #ddd;
+    color: #030303;
   }
   
   .menu-icon {

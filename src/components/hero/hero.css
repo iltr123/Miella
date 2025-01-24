@@ -51,19 +51,19 @@
   }
   
   .primary-btn {
-    background-color: #e11d48;
+    background-color: #000000;
     color: white;
-    border: 2px solid #e11d48;
+    border: 2px solid #0a0909;
   }
   
   .secondary-btn {
     background-color: transparent;
-    color: #e11d48;
-    border: 2px solid #e11d48;
+    color: #0b0909;
+    border: 2px solid #272425;
   }
   
   .primary-btn:hover {
-    background-color: #be123c;
+    background-color: #272021;
   }
   
   .secondary-btn:hover {
@@ -124,14 +124,14 @@
     margin-left: 5px;
   }
   .custom-btn {
-  background-color: #e11d48;
-  border-color: #e11d48;
+  background-color: #1c1a1a;
+  border-color: #111010;
   color: white;
 }
 
 .custom-btn:hover {
-  background-color: #c10e3b;
-  border-color: #c10e3b;
+  background-color: #151213;
+  border-color: #100f0f;
 }
   
 /* Footer Styling */

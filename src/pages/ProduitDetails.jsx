@@ -54,7 +54,7 @@ const ProduitDetails = () => {
                   <h5 className="card-title">{similarProduit.nom}</h5>
                   <p className="card-text">Prix : {similarProduit.prix} €</p>
                 </div>
-              </div>
+              </div>  
             </div>
           ))}
       </div>

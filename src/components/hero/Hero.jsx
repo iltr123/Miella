@@ -22,14 +22,15 @@ const HeroSection = () => {
             Crafted with precision, designed for elegance.
           </p>
           <div className="hero-buttons">
-            <button className="primary-btn">
-              Shop Now
-              <i className="icon-shopping-bag"></i>
-            </button>
-            <button className="secondary-btn">
-              View Collection
-              <i className="icon-arrow-right"></i>
-            </button>
+          <a href="/Contact" className="secondary-btn">
+Shop now
+  <i className="icon-arrow-right"></i>
+</a>
+            <a href="/Produits" className="secondary-btn">
+  View Collection
+  <i className="icon-arrow-right"></i>
+</a>
+
           </div>
         </div>
         <div className="hero-image">
